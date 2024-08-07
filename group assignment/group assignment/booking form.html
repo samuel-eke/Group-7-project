@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.css">
+    <script src="bootstrap-5.3.3-dist/js/bootstrap.js"></script>
+    <title>Document</title>
+    <style>
+          .form-container {
+            background-color: #f8f9fa;
+            padding: 20px;
+        }
+        .form-label {
+            color: #007bff;
+        }
+        .form-control {
+            border-color: #007bff;
+        }
+        .btn-custom {
+            background-color: #007bff;
+            color: white;
+        }
+        .btn-custom:hover {
+            background-color: #0056b3;
+        }
+        footer {
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body class="bg-light">
+    <nav class="navbar bg-primary navbar-dark navbar-expand-sm">
+        <div class="container-fluid">
+            <ul class="navbar-nav fs-5">
+                <li class="nav-item">
+                    <a href="Group Assignment.html#Home" class="nav-link text-white">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="Group Assignment.html#contact" class="nav-link text-white">Locations</a>
+                </li>
+                <li class="nav-item">
+                    <a href="Group Assignment.html#contact" class="nav-link text-white">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a href="Group Assignment.html#services" class="nav-link text-white">Services</a>
+                </li>
+            </ul>
+            <header class=" lead bg-primary text-white text-center py-2 me-4">
+                <p>ETS Sales Consultancy &#169 2024  </p>
+            </header>
+        </div>
+    </nav>
+
+    <h1 class="text-center">Booking Form</h1>
+    <p class="text-center">Let us know how we can help you!</p>
+    <div class="container w-50 border border-primary rounded ">
+
+        <label for="name" class="form-label">Name:</label>
+        <input type="name" class="form-control w-50 border border-primary" placeholder="First name...">
+        <input type="name" class="form-control w-50 border border-primary" placeholder="Last name..."> <br>
+
+        <label for="phone" class="form-label">Tel:</label>
+        <input type="text" class="form-control w-50 border border-primary" placeholder="phone number..."><br>
+
+        <label for="email" class="form-label">Email address:</label>
+        <input type="email" class="form-control w-50 border border-primary" placeholder="email..."> <br>
+
+        <label for="address" class="form-label">Address</label>
+        <input type="text" class="form-control w-50 border border-primary" placeholder="address...">
+        <input type="text" class="form-control w-50 border border-primary" placeholder="city...">
+        <br>
+
+        <label for="zip code" class="form-label">Postal/Zip code</label>
+        <input type="text" class="form-control w-50 border border-primary" placeholder="code..."><br>
+
+        <label for="date">Date</label>
+        <input type="date" class="form-control w-50 border border-primary"><br>
+
+        <label for="time">Time</label>
+        <input type="time" class="form-control w-50 border border-primary"><br>
+
+        <label for="">What services are you interested in?</label> <br>
+        <textarea name="request a service" id="" class="form-control w-50 border border-primary"></textarea> <br>
+
+        <label for="">Would you like to be notified about promotional services?</label><br>
+        <input type="radio" name="option" value="option2"> Yes
+        <br>
+        <label>
+            <input type="radio" name="option" value="option3"> No
+        </label><br><br>
+
+
+        <button type="submit" class="btn btn-primary mb-3">Submit</button>
+        <button type="reset" class="btn btn-primary mb-3">Reset</button>
+    </div>
+    <footer class="lead  fs-2 font-weight-bold bg-primary text-white text-center py-3 mt-2">
+        <p>ETS Sales Consultancy &#169 2024  </p>
+    </footer>
+</body>
+</html>
